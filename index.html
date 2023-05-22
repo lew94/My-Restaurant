@@ -14,15 +14,29 @@
     <title>Home</title>
   </head>
   <body>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#">Menu</a>
-      <a href="#">Bookings</a>
-      <a href="#">About Us</a>
-      <a href="#">Contact</a>
-      <P><h3 id="opening">We are Open</h3><h4>Mon - Thur</h4> <h5>4pm - 10pm</h5><h4>Fri - Sat</h4><h5>4pm - 11:30pm</h5></P>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3">
+          <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="index.html" class="nav-link active">Menu</a>
+              <a href="#" class="nav-link">Bookings</a>
+              <a href="#" class="nav-link">About Us</a>
+              <a href="#" class="nav-link">Contact</a>
+              <P><h3 id="opening">We are Open</h3><h4>Mon - Thur</h4> <h5>4pm - 10pm</h5><h4>Fri - Sat</h4><h5>4pm - 11:30pm</h5></P>
+          </div>
+          <span class="menudrop" onclick="openNav()">&#9776;</span>
+        </div>
+        <div class="col-lg-9">
+          <div class="logocontain">
+            <a  href="index.html"><img src="assests/images/logo.png" alt="The Steak House text Logo" /></a>
+          </div>
+        </div>
+      </div>
+
     </div>
-    <span class="menudrop" onclick="openNav()">&#9776;</span>
+    
+    
 
 
     <script src="assests/js/script.js"></script>

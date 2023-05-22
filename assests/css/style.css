@@ -1,3 +1,11 @@
+/*Elements*/
+h3,h4,h5{
+    text-align: center;
+    color: #ffd92d;
+    margin-top: 35px;
+    font-family: emoji;
+  }
+
 /* Navbar style */
 .sidenav {
     height: 100%;
@@ -40,9 +48,10 @@
     font: 56px;
  }
 
-  h3,h4,h5{
-    text-align: center;
-    color: #ffd92d;
-    margin-top: 35px;
-    font-family: emoji;
+ .nav-link {
+    text-decoration: none;
+  }
+  
+  .nav-link.active {
+    text-decoration: underline;
   }
