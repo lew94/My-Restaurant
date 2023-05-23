@@ -6,6 +6,10 @@ h3,h4,h5{
     font-family: emoji;
   }
 
+  body{
+    background-color: #03070A;
+  }
+
 /* Navbar style */
 .sidenav {
     height: 100%;
@@ -54,4 +58,19 @@ h3,h4,h5{
   
   .nav-link.active {
     text-decoration: underline;
+    text-decoration-color: #ffd92d;
+    text-underline-offset: 7px;
+  }
+
+  .logo-img {
+    width: 460px;
+    height: auto;
+    margin-top: -10px;
+  }
+
+  .logocontain{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
   }
